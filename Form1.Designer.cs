@@ -40,6 +40,7 @@ namespace maskBits
             this.label3 = new System.Windows.Forms.Label();
             this.dataType = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.warningLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // firstBinary
@@ -148,11 +149,22 @@ namespace maskBits
             this.label4.TabIndex = 10;
             this.label4.Text = "Data Type:";
             // 
+            // warningLabel
+            // 
+            this.warningLabel.AutoSize = true;
+            this.warningLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.warningLabel.ForeColor = System.Drawing.Color.Crimson;
+            this.warningLabel.Location = new System.Drawing.Point(259, 202);
+            this.warningLabel.Name = "warningLabel";
+            this.warningLabel.Size = new System.Drawing.Size(0, 21);
+            this.warningLabel.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(466, 319);
+            this.Controls.Add(this.warningLabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dataType);
             this.Controls.Add(this.label3);
@@ -184,6 +196,7 @@ namespace maskBits
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox dataType;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label warningLabel;
     }
 }
 
