@@ -1,7 +1,7 @@
 ﻿
 namespace maskBits
 {
-    partial class Form1
+    partial class BitwiseOperator
     {
         /// <summary>
         /// Required designer variable.
@@ -159,7 +159,7 @@ namespace maskBits
             this.warningLabel.Size = new System.Drawing.Size(0, 21);
             this.warningLabel.TabIndex = 11;
             // 
-            // Form1
+            // BitwiseOperator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,8 +176,8 @@ namespace maskBits
             this.Controls.Add(this.value1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.firstBinary);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "BitwiseOperator";
+            this.Text = "Bitwise Operation Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

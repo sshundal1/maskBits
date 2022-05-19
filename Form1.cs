@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace maskBits
 {
-    public partial class Form1 : Form
+    public partial class BitwiseOperator : Form
     {
-        public Form1() //first function which is called
+        public BitwiseOperator() //first function which is called
         {
             InitializeComponent();
 
